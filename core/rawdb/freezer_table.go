@@ -27,10 +27,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
 	"github.com/golang/snappy"
+	"github.com/lyless/go-ethereum/common"
+	"github.com/lyless/go-ethereum/log"
+	"github.com/lyless/go-ethereum/metrics"
 )
 
 var (

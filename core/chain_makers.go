@@ -20,17 +20,17 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/lyless/go-ethereum/common"
+	"github.com/lyless/go-ethereum/consensus"
+	"github.com/lyless/go-ethereum/consensus/misc"
+	"github.com/lyless/go-ethereum/consensus/misc/eip1559"
+	"github.com/lyless/go-ethereum/core/rawdb"
+	"github.com/lyless/go-ethereum/core/state"
+	"github.com/lyless/go-ethereum/core/types"
+	"github.com/lyless/go-ethereum/core/vm"
+	"github.com/lyless/go-ethereum/ethdb"
+	"github.com/lyless/go-ethereum/params"
+	"github.com/lyless/go-ethereum/trie"
 )
 
 // BlockGen creates blocks for testing.

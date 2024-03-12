@@ -23,8 +23,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/lyless/go-ethereum/common"
+	"github.com/lyless/go-ethereum/core/types"
 )
 
 func TestChainIterator(t *testing.T) {

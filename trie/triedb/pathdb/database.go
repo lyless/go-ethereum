@@ -23,14 +23,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/trie/triestate"
+	"github.com/lyless/go-ethereum/common"
+	"github.com/lyless/go-ethereum/core/rawdb"
+	"github.com/lyless/go-ethereum/core/types"
+	"github.com/lyless/go-ethereum/ethdb"
+	"github.com/lyless/go-ethereum/log"
+	"github.com/lyless/go-ethereum/params"
+	"github.com/lyless/go-ethereum/trie/trienode"
+	"github.com/lyless/go-ethereum/trie/triestate"
 )
 
 // maxDiffLayers is the maximum diff layers allowed in the layer tree.

@@ -20,11 +20,11 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
+	"github.com/lyless/go-ethereum/common"
+	"github.com/lyless/go-ethereum/common/hexutil"
+	"github.com/lyless/go-ethereum/internal/ethapi"
+	"github.com/lyless/go-ethereum/log"
+	"github.com/lyless/go-ethereum/signer/core/apitypes"
 )
 
 type AuditLogger struct {

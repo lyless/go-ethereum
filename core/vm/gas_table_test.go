@@ -23,12 +23,12 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/lyless/go-ethereum/common"
+	"github.com/lyless/go-ethereum/common/hexutil"
+	"github.com/lyless/go-ethereum/core/rawdb"
+	"github.com/lyless/go-ethereum/core/state"
+	"github.com/lyless/go-ethereum/core/types"
+	"github.com/lyless/go-ethereum/params"
 )
 
 func TestMemoryGasCost(t *testing.T) {

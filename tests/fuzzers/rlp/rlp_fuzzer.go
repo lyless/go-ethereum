@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/holiman/uint256"
+	"github.com/lyless/go-ethereum/core/types"
+	"github.com/lyless/go-ethereum/rlp"
 )
 
 func decodeEncode(input []byte, val interface{}, i int) {

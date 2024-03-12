@@ -29,16 +29,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/lyless/go-ethereum/common"
+	"github.com/lyless/go-ethereum/core"
+	"github.com/lyless/go-ethereum/core/rawdb"
+	"github.com/lyless/go-ethereum/core/state"
+	"github.com/lyless/go-ethereum/core/txpool"
+	"github.com/lyless/go-ethereum/core/types"
+	"github.com/lyless/go-ethereum/crypto"
+	"github.com/lyless/go-ethereum/event"
+	"github.com/lyless/go-ethereum/params"
+	"github.com/lyless/go-ethereum/trie"
 )
 
 var (

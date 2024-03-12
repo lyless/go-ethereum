@@ -22,14 +22,14 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/lyless/go-ethereum/common"
+	"github.com/lyless/go-ethereum/common/prque"
+	"github.com/lyless/go-ethereum/consensus"
+	"github.com/lyless/go-ethereum/core/types"
+	"github.com/lyless/go-ethereum/eth/protocols/eth"
+	"github.com/lyless/go-ethereum/log"
+	"github.com/lyless/go-ethereum/metrics"
+	"github.com/lyless/go-ethereum/trie"
 )
 
 const (

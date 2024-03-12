@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/lyless/go-ethereum/common"
+	"github.com/lyless/go-ethereum/crypto"
+	"github.com/lyless/go-ethereum/ethdb"
+	"github.com/lyless/go-ethereum/log"
 	"golang.org/x/crypto/sha3"
 )
 

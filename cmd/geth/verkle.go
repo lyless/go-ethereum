@@ -23,12 +23,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/gballet/go-verkle"
+	"github.com/lyless/go-ethereum/cmd/utils"
+	"github.com/lyless/go-ethereum/common"
+	"github.com/lyless/go-ethereum/core/rawdb"
+	"github.com/lyless/go-ethereum/internal/flags"
+	"github.com/lyless/go-ethereum/log"
 	cli "github.com/urfave/cli/v2"
 )
 

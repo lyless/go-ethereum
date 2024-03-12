@@ -23,12 +23,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/beacon/engine"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/lyless/go-ethereum/beacon/engine"
+	"github.com/lyless/go-ethereum/common"
+	"github.com/lyless/go-ethereum/core/types"
+	"github.com/lyless/go-ethereum/log"
+	"github.com/lyless/go-ethereum/params"
+	"github.com/lyless/go-ethereum/rlp"
 )
 
 // BuildPayloadArgs contains the provided parameters for building payload.

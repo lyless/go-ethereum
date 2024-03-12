@@ -21,15 +21,15 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/lyless/go-ethereum/common"
+	"github.com/lyless/go-ethereum/core/rawdb"
+	"github.com/lyless/go-ethereum/core/state"
+	"github.com/lyless/go-ethereum/core/types"
+	"github.com/lyless/go-ethereum/crypto"
+	"github.com/lyless/go-ethereum/ethdb"
+	"github.com/lyless/go-ethereum/rlp"
+	"github.com/lyless/go-ethereum/trie"
+	"github.com/lyless/go-ethereum/trie/trienode"
 )
 
 var (

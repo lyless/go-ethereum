@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/lyless/go-ethereum/common"
+	"github.com/lyless/go-ethereum/core"
+	"github.com/lyless/go-ethereum/core/state"
+	"github.com/lyless/go-ethereum/core/types"
+	"github.com/lyless/go-ethereum/crypto/kzg4844"
+	"github.com/lyless/go-ethereum/log"
+	"github.com/lyless/go-ethereum/params"
 )
 
 // ValidationOptions define certain differences between transaction validation
