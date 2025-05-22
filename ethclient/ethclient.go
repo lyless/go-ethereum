@@ -735,6 +735,8 @@ func toCallArg(msg ethereum.CallMsg) interface{} {
 	}
 	if len(msg.Data) > 0 {
 		arg["input"] = hexutil.Bytes(msg.Data)
+		// use data property to compatible with old node
+		arg["data"] = hexutil.Bytes(msg.Data)
 	}
 	if msg.Value != nil {
 		arg["value"] = (*hexutil.Big)(msg.Value)
